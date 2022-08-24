@@ -132,15 +132,187 @@ table {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+body {
+  line-height: 1.5;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
 img {
   max-width: 100%;
   height: auto;
   vertical-align: middle; }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif; }
-
 a {
   text-decoration: none; }
+
+.mb-1 {
+  margin-bottom: 8px; }
+
+.mb-3 {
+  margin-bottom: 24px; }
+
+.h1 {
+  font-size: 4rem; }
+
+.h2 {
+  font-size: 3rem; }
+
+.h3 {
+  font-size: 2.625rem; }
+
+.h4 {
+  font-size: 2.25rem; }
+
+.h5 {
+  font-size: 2rem; }
+
+.h6 {
+  font-size: 1.5rem; }
+
+.lg-text {
+  font-size: 1.25rem; }
+
+.md-text {
+  font-size: 1.125rem; }
+
+.sm-text {
+  font-size: 0.875rem; }
+
+.bg-primary {
+  background-color: #AA0601; }
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px; }
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.header .logo {
+  display: block;
+  width: 80px;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.header .menu-link {
+  display: block;
+  padding: 25px 32px;
+  color: #fff; }
+
+.header .pr-0 {
+  padding-right: 0; }
+
+@media (max-width: 768px) {
+  .header .container {
+    padding: 0; }
+  .header h1 {
+    width: 100%; }
+  .header .logo {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0 auto; }
+  .header .menu {
+    width: 100%; }
+  .header li {
+    width: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 1rem; }
+  .header .menu-link {
+    padding: 12px; } }
+
+.footer {
+  color: #fff; }
+  .footer a {
+    display: block;
+    color: #fff; }
+  .footer-header, .footer-menu,
+  .footer .social-media-group, .footer-footer,
+  .footer .policy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .footer-header {
+    padding-top: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #fff; }
+  .footer-menu {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 24px;
+    width: 448px;
+    height: 48px; }
+  .footer .contact-method span {
+    vertical-align: middle;
+    padding-right: 20px; }
+  .footer .social-media-group {
+    width: 208px; }
+  .footer .social-media-logo {
+    width: 48px; }
+  .footer-footer {
+    padding-top: 32px;
+    padding-bottom: 32px; }
+  .footer .policy {
+    width: 174px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  @media (max-width: 992px) {
+    .footer-menu {
+      height: 40px; }
+    .footer .social-media-group {
+      width: 152px; }
+    .footer .social-media-logo {
+      width: 40px; } }
+  @media (max-width: 768px) {
+    .footer-header {
+      padding-top: 24px;
+      padding-bottom: 24px; }
+    .footer-footer,
+    .footer .policy {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: start; }
+    .footer .policy li {
+      margin-top: 8px; }
+    .footer-menu {
+      display: none; }
+    .footer .social-media-group {
+      width: 88px; }
+    .footer .social-media-logo {
+      width: 24px; }
+    .footer-footer {
+      padding-top: 16px;
+      padding-bottom: 24px; }
+    .footer .h4,
+    .footer .sm-text {
+      font-size: 1rem; } }
 
 /*# sourceMappingURL=all.css.map */
