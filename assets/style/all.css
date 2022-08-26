@@ -160,6 +160,9 @@ a {
 .mb-6 {
   margin-bottom: 48px; }
 
+.d-block {
+  display: block; }
+
 .h1 {
   font-size: 4rem; }
 
