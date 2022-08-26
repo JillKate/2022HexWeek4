@@ -6,7 +6,7 @@
 }
 
 @mixin mobile {
-    @media (max-width:768px) {
+    @media (max-width:767px) {
         @content
     }
 }
@@ -16,4 +16,11 @@
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
+}
+
+// 背景圖片設定
+@mixin bg-img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
