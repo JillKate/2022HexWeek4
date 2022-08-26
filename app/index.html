@@ -9,7 +9,7 @@ current: index
   <div class="container">
     <h2 class="h4">Promise-Desert 2020 早春系列</h2>
     <p class="h1 font-bold">看得清，才能看得遠</p>
-    <button class="sm-button"><a href="#">立即購買</a></button>
+    <button class="button"><a href="#">立即購買</a></button>
   </div>
 </div>
 <main>
@@ -141,27 +141,35 @@ current: index
   <section class="contact-us bg-primary-light">
     <div class="container">
       <p class="h2 contact-title mb-6 font-bold">聯絡我們</p>
-      <div class="mb-3">
-        <p class="lg-text">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-      </div>
-      <form action="#" target="_blank">
-        <div class="mb-2">
-          <label class="d-block" for="customer-name">姓名</label>
-          <input class="d-block" type="text" id="customer-name" name="customer-name" placeholder="陳小明">
+      <form class="form" action="#" target="_blank">
+        <div class="mb-3">
+          <p class="contact-description">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
         </div>
-        <div class="mb-2">
-          <label class="d-block" for="customer-phone">聯絡電話</label>
-          <input class="d-block" type="text" id="customer-phone" name="customer-phone" placeholder="0912-234-567">
+        <div class="mb-2 form-group">
+          <label class="d-block mb-1" for="customer-name">姓名</label>
+          <input class="input d-block" type="text" id="customer-name" name="customer-name" placeholder="陳小明" required>
         </div>
-        <div class="mb-2">
-          <label class="d-block" for="customer-mail">電子郵件</label>
-          <input class="d-block" type="text" id="customer-mail" name="customer-mail" placeholder="hexglasses@email.com">
+        <div class="mb-2 form-group">
+          <label class="d-block mb-1" for="customer-phone">聯絡電話</label>
+          <input class="input d-block" type="tel" id="customer-phone" name="customer-phone" placeholder="0912-234-567"
+            required>
         </div>
-        <div class="mb-2">
+        <div class="mb-2 form-group">
+          <label class="d-block mb-1" for="customer-mail" required>電子郵件</label>
+          <input class="input d-block" type="email" id="customer-mail" name="customer-mail"
+            placeholder="hexglasses@email.com">
+        </div>
+        <div class="mb-2 form-group">
           <label for="customer-opinion" class="d-block mb-1">意見反應</label>
-          <textarea name="customer-opinion" id="customer-opinion" cols="30" rows="10" placeholder="請輸入您的意見"></textarea>
+          <textarea class="textarea" name="customer-opinion" id="customer-opinion" cols="30" rows="10"
+            placeholder="請輸入您的意見" required></textarea>
+        </div>
+        <div class="mb-6">
+          <input type="checkbox" id="privacy-policy-agreement" name="privacy-policy-agreement" required>
+          <label for="privacy-policy-agreement">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
         </div>
       </form>
+      <button class="submit-button d-block">確認送出</button>
     </div>
   </section>
 </main>
