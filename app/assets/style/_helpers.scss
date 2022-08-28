@@ -19,12 +19,30 @@
     margin-bottom: 48px;
 }
 
+.mx-n12 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 // display
 .d-block {
     display: block;
 }
 
-// 字型大小.重量
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+// 字型大小、重量、對齊方式
 .h1 {
     font-size: $h1-font-size; // 64px
 }
@@ -61,15 +79,43 @@
     font-size: $sm-font-size; // 14px
 }
 
-.font-bold {
+.text-bold {
     font-weight: bold;
 }
 
-// 背景色
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+// 顏色 - 文字、背景
+.text-primary {
+    color: $primary;
+}
+
+.text-primary-dark {
+    color: $primary-dark;
+}
+
+.text-secondary {
+    color: $secondary;
+}
+
 .bg-primary {
     background-color: $primary;
 }
 
 .bg-primary-light {
     background-color: $primary-ligth;
+}
+
+.bg-secondary {
+    background-color: $secondary;
 }

@@ -5,37 +5,39 @@ engine: ejs
 current: index
 ---
 
-<div class="banner">
+<div class="banner text-primary-dark text-right">
   <div class="container">
     <h2 class="h4">Promise-Desert 2020 早春系列</h2>
-    <p class="h1 font-bold">看得清，才能看得遠</p>
-    <button class="button"><a href="#">立即購買</a></button>
+    <p class="h1 text-bold">看得清，才能看得遠</p>
+    <button class="btn bg-primary"><a class="lg-text text-secondary" href="#">立即購買</a></button>
   </div>
 </div>
+
+<!-- 主要內容 -->
 <main>
   <!-- 用專業的心，做專業的事 -->
   <section class="introduction bg-primary-light">
     <div class="container">
-      <p class="h2 intro-title mb-3 font-bold">用專業的心，做專業的事</p>
-      <ul class="intro-card-box">
-        <li class="intro-card">
+      <h2 class="h2 intro-title mb-3 text-primary-dark text-center text-bold">用專業的心，做專業的事</h2>
+      <ul class="intro-card-box d-flex flex-wrap mx-n12">
+        <li class="intro-card d-flex px-12">
           <img class="d-block card-header mb-2" src="./assets/images/home-section2-1.png" alt="錢幣圖像">
-          <p class="card-body h6 font-bold mb-1">單一價格</p>
+          <p class="card-body text-primary-dark h6 text-bold mb-1">單一價格</p>
           <p class="card-footer">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
         </li>
-        <li class="intro-card">
+        <li class="intro-card d-flex px-12">
           <img class="d-block card-header mb-2" src="./assets/images/home-section2-2.png" alt="時鐘圖像">
-          <p class="card-body h6 font-bold mb-1">20 分鐘即可取件</p>
+          <p class="card-body text-primary-dark h6 text-bold mb-1">20 分鐘即可取件</p>
           <p class="card-footer">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
         </li>
-        <li class="intro-card">
+        <li class="intro-card d-flex px-12">
           <img class="d-block card-header mb-2" src="./assets/images/home-section2-3.png" alt="愛心圖像">
-          <p class="card-body h6 font-bold mb-1">安心售後服務</p>
+          <p class="card-body text-primary-dark h6 text-bold mb-1">安心售後服務</p>
           <p class="card-footer">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
         </li>
-        <li class="intro-card">
+        <li class="intro-card d-flex px-12">
           <img class="d-block card-header mb-2" src="./assets/images/home-sectioin2-4.png" alt="眼鏡圖像">
-          <p class="card-body h6 font-bold mb-1">關於鏡片</p>
+          <p class="card-body text-primary-dark h6 text-bold mb-1">關於鏡片</p>
           <p class="card-footer">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
         </li>
       </ul>
@@ -45,19 +47,19 @@ current: index
   <!-- 經典系列鏡框 -->
   <section class="classic">
     <div class="container">
-      <p class="h2 classic-title mb-6 font-bold">經典系列鏡框</p>
-      <ul class="classic-card-box">
-        <li class="classic-card">
+      <h2 class="h2 classic-title mb-6 text-primary-dark text-center text-bold">經典系列鏡框</h2>
+      <ul class="classic-card-box d-flex flex-wrap mx-n12 text-primary">
+        <li class="classic-card px-12">
           <img src="./assets/images/home-section3-1.png" alt="OPTICAL 示意圖像" class="d-block card-photo">
-          <p class="h2 card-title">OPTICAL</p>
+          <p class="h2 card-title text-center text-italic">OPTICAL</p>
         </li>
-        <li class="classic-card">
+        <li class="classic-card px-12">
           <img src="./assets/images/home-section3-2.png" alt="SUNGLASSES 示意圖像" class="d-block card-photo">
-          <p class="h2 card-title">SUNGLASSES</p>
+          <p class="h2 card-title text-center text-italic">SUNGLASSES</p>
         </li>
-        <li class="classic-card">
+        <li class="classic-card px-12">
           <img src="./assets/images/home-section3-3.png" alt="FUNCTIONAL 示意圖像" class="d-block card-photo">
-          <p class="h2 card-title">FUNCTIONAL</p>
+          <p class="h2 card-title text-center text-italic">FUNCTIONAL</p>
         </li>
       </ul>
     </div>
@@ -66,15 +68,15 @@ current: index
   <!-- 聯名設計鏡框 -->
   <section class="joint">
     <div class="container">
-      <p class="h2 joint-title mb-6 font-bold">聯名設計鏡框</p>
-      <ul class="joint-card-box">
+      <h2 class="h2 joint-title mb-6 text-secondary text-center text-bold">聯名設計鏡框</h2>
+      <ul class="joint-card-box d-flex flex-wrap">
         <li class="joint-card">
           <div class="card-photo-1"></div>
-          <p class="h2 card-title">DOUBLE A+</p>
+          <p class="h2 card-title bg-secondary text-primary text-center text-italic">DOUBLE A+</p>
         </li>
         <li class="joint-card">
           <div class="card-photo-2"></div>
-          <p class="h2 card-title">YOUTH</p>
+          <p class="h2 card-title bg-secondary text-primary text-center text-italic">YOUTH</p>
         </li>
       </ul>
     </div>
@@ -83,11 +85,11 @@ current: index
   <!-- 顧客推薦 -->
   <section class="comment">
     <div class="container">
-      <p class="h2 comment-title mb-6 font-bold">顧客推薦</p>
-      <ul class="comment-card-box">
-        <li class="comment-card">
+      <h2 class="h2 comment-title mb-6 text-primary-dark text-center text-bold">顧客推薦</h2>
+      <ul class="comment-card-box d-flex flex-wrap mx-n12">
+        <li class="comment-card px-12">
           <img src="./assets/images/home-section5-1.png" alt="顧客圖像" class="d-block card-photo">
-          <div class="card-content">
+          <div class="card-content d-flex">
             <div>
               <p class="customer-name mb-1">Jessy</p>
               <p class="customer-comment">眼鏡品質優良，下次還會想來這邊購買！</p>
@@ -97,9 +99,9 @@ current: index
             </div>
           </div>
         </li>
-        <li class="comment-card">
+        <li class="comment-card px-12">
           <img src="./assets/images/home-section5-2.png" alt="顧客圖像" class="d-block card-photo">
-          <div class="card-content">
+          <div class="card-content d-flex">
             <div>
               <p class="customer-name mb-1">凱倫</p>
               <p class="customer-comment">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
@@ -109,9 +111,9 @@ current: index
             </div>
           </div>
         </li>
-        <li class="comment-card">
+        <li class="comment-card px-12">
           <img src="./assets/images/home-section5-3.png" alt="顧客圖像" class="d-block card-photo">
-          <div class="card-content">
+          <div class="card-content d-flex">
             <div>
               <p class="customer-name mb-1">悠悠</p>
               <p class="customer-comment">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
@@ -121,9 +123,9 @@ current: index
             </div>
           </div>
         </li>
-        <li class="comment-card">
+        <li class="comment-card px-12">
           <img src="./assets/images/home-section5-4.png" alt="顧客圖像" class="d-block card-photo">
-          <div class="card-content">
+          <div class="card-content d-flex">
             <div>
               <p class="customer-name mb-1">Kyuan</p>
               <p class="customer-comment">服務很好，品質沒有任何問題，非常喜歡。</p>
@@ -140,10 +142,10 @@ current: index
   <!-- 聯絡我們 -->
   <section class="contact-us bg-primary-light">
     <div class="container">
-      <p class="h2 contact-title mb-6 font-bold">聯絡我們</p>
-      <form class="form" action="#" target="_blank">
+      <h2 class="h2 contact-title mb-6 text-primary-dark text-center text-bold">聯絡我們</h2>
+      <form class="form px-12" action="#" target="_blank">
         <div class="mb-3">
-          <p class="contact-description">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+          <p class="contact-description lg-text">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
         </div>
         <div class="mb-2 form-group">
           <label class="d-block mb-1" for="customer-name">姓名</label>
@@ -168,8 +170,9 @@ current: index
           <input type="checkbox" id="privacy-policy-agreement" name="privacy-policy-agreement" required>
           <label for="privacy-policy-agreement">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
         </div>
+        <button class="submit-button d-block px-12 bg-primary text-secondary">確認送出</button>
       </form>
-      <button class="submit-button d-block">確認送出</button>
+
     </div>
   </section>
 </main>
