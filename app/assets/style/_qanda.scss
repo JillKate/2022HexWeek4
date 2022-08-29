@@ -1,0 +1,35 @@
+.q-and-a {
+    padding-top: 96px;
+    padding-bottom: 80px;
+
+    &-title {
+        padding-left: 16px;
+        border-left: 8px solid $warning;
+    }
+
+    &-list {
+        width: calc(8/12 * 100%);
+    }
+
+    @include pad {
+        padding-top: 80px;
+
+        &-list {
+            width: 100%;
+        }
+    }
+
+    @include mobile {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        &-title {
+            margin-bottom: 24px;
+            font-size: $h6-font-size;
+        }
+
+        &-item {
+            margin-bottom: 24px;
+        }
+    }
+}
