@@ -564,4 +564,27 @@ main section {
   .contact-us .submit-button {
     width: 100%; } }
 
+.q-and-a {
+  padding-top: 96px;
+  padding-bottom: 80px; }
+  .q-and-a-title {
+    padding-left: 16px;
+    border-left: 8px solid #9F1213; }
+  .q-and-a-list {
+    width: calc(8/12 * 100%); }
+  @media (max-width: 992px) {
+    .q-and-a {
+      padding-top: 80px; }
+      .q-and-a-list {
+        width: 100%; } }
+  @media (max-width: 767px) {
+    .q-and-a {
+      padding-top: 40px;
+      padding-bottom: 40px; }
+      .q-and-a-title {
+        margin-bottom: 24px;
+        font-size: 1.5rem; }
+      .q-and-a-item {
+        margin-bottom: 24px; } }
+
 /*# sourceMappingURL=all.css.map */
